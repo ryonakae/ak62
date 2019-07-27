@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 1215)
+    (drawings 1216)
     (tracks 0)
     (zones 0)
     (modules 0)
@@ -101,6 +101,9 @@
     (uvia_drill 0.1)
   )
 
+  (gr_text "AK62 / Apple Keyboard M0116 Mod\nPCB Designed by Ryo Nakae" (at 139.27 -2.16) (layer F.Mask)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
   (gr_circle (center 179.32 -90.49) (end 179.32 -89.39) (layer Edge.Cuts) (width 0.05) (tstamp 5D37B5DD))
   (gr_circle (center 103.12 -90.49) (end 103.12 -89.39) (layer Edge.Cuts) (width 0.05) (tstamp 5D37B5DB))
   (gr_circle (center 26.92 -90.49) (end 26.92 -89.39) (layer Edge.Cuts) (width 0.05) (tstamp 5D37B5D9))
@@ -1323,7 +1326,7 @@
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy -3.24 -104.73) (xy -3.24 5.93) (xy 293.63 5.93) (xy 293.63 -102.96)
+        (xy 0 -99.06) (xy 0 10.16) (xy 292.1 10.16) (xy 292.1 -99.06)
       )
     )
     (filled_polygon
@@ -2208,7 +2211,7 @@
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy -1.19065 -104.7772) (xy -1.19065 6.90577) (xy 293.61429 6.90577) (xy 293.61429 -104.06281)
+        (xy 0 -99.06) (xy 0 10.16) (xy 292.1 10.16) (xy 292.1 -99.06)
       )
     )
     (filled_polygon
